@@ -1,2 +1,8 @@
 # prevent commiting wiki credentials
 config.json
+
+# venv
+venv/
+
+# VS Code
+.vscode
