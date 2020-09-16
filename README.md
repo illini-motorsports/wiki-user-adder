@@ -8,7 +8,9 @@ The *wiki user adder` is a small python script to quickly add new members to the
 
 ## Setup
 
-1. Download this repo to your computer, and install the dependencies:
+1. Enable Remote API access on the wiki. This should be disabled when not using the script - even though the API requires authentication, for best security practices it should not be accessible normally. This can be done in *Confluence administration --> Further Configuration*
+
+2. Download this repo to your computer, and install the dependencies:
 
     ```bash
     git clone https://github.com/illini-motorsports/    wiki-user-adder && cd wiki-user-adder
@@ -16,7 +18,7 @@ The *wiki user adder` is a small python script to quickly add new members to the
     pip install -r requirements.txt
     ```
 
-1. Copy `sample_config.json` to  a new file `config.json` and set the following properties:
+3. Copy `sample_config.json` to  a new file `config.json` and set the following properties:
 
    - auth 
      - username: the username of the wiki account to use (must be an admin account)
@@ -27,7 +29,7 @@ The *wiki user adder` is a small python script to quickly add new members to the
    - endpoint: the RPC API endpoint of the wiki
      - As of the time of writing, this is `http://wiki.motorsports.illinois.edu/rpc/json-rpc/confluenceservice-v2`
   
-2. Create a `.csv` file containing in *separate* columns, for the users you want to add to the wiki:
+4. Create a `.csv` file containing in *separate* columns, for the users you want to add to the wiki:
      - first name
      - last name
      - net ID
