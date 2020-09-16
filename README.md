@@ -1,6 +1,6 @@
 # wiki-user-adder
 
-The *wiki user adder` is a small python script to quickly add new members to the wiki, and grant them the appropiate permissions.
+The *wiki user adder* is a small python script to quickly add new members to the wiki, and grant them the appropiate permissions.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ The *wiki user adder` is a small python script to quickly add new members to the
 2. Download this repo to your computer, and install the dependencies:
 
     ```bash
-    git clone https://github.com/illini-motorsports/    wiki-user-adder && cd wiki-user-adder
+    git clone https://github.com/illini-motorsports/wiki-user-adder && cd wiki-user-adder
 
     pip install -r requirements.txt
     ```
