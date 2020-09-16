@@ -1,0 +1,10 @@
+{
+    "auth": {
+        "username": "admin username",
+        "password": "admin password"
+    },
+    "options": {
+        "group": "target user group"
+    },
+    "endpoint": "wiki RPC endpoint"
+}
