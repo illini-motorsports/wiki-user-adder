@@ -8,7 +8,7 @@ The *wiki user adder* is a small python script to quickly add new members to the
 
 ## Setup
 
-1. Enable Remote API access on the wiki. This should be disabled when not using the script - even though the API requires authentication, for best security practices it should not be accessible normally. This can be done in *Confluence administration --> Further Configuration*
+1. Enable Remote API access on the wiki. This should be disabled when not using the script - even though the API requires authentication, for best security practices it should not be accessible normally. This can be done in *Confluence administration --> Further Configuration*. You will also have to temporarily disable  "Secure administrator sessions" in *Confluence administration --> Security Configuration*. **Remember to reset these settings back to their defaults after running the script!**
 
 2. Download this repo to your computer, and install the dependencies:
 
