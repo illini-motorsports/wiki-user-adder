@@ -27,7 +27,7 @@ The *wiki user adder* is a small python script to quickly add new members to the
      - group: the Confluence group to add users to
        - As of the time of writing, this is `team-members`
    - endpoint: the RPC API endpoint of the wiki
-     - As of the time of writing, this is `http://wiki.motorsports.illinois.edu/rpc/json-rpc/confluenceservice-v2`
+     - As of the time of writing, this is `https://wiki.motorsports.illinois.edu/rpc/json-rpc/confluenceservice-v2`
   
 4. Create a `.csv` file containing in *separate* columns, for the users you want to add to the wiki:
      - first name
